@@ -1,0 +1,42 @@
+[ 2016-10-04T16:18:13+08:00 ] ::1 /thinkPhp/user/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载模块:User
+
+[ 2016-10-04T16:25:18+08:00 ] ::1 /thinkPhp/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+ERR: 无法加载模块:User
+
+[ 2016-10-04T16:38:19+08:00 ] ::1 /thinkPhp/Application/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+ERR: 无法加载模块:Application
+
+[ 2016-10-04T16:38:50+08:00 ] ::1 /thinkPhp/Application/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+ERR: 无法加载模块:Application
+
+[ 2016-10-04T16:39:02+08:00 ] ::1 /thinkPhp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+ERR: 无法加载模块:Index
+
+[ 2016-10-04T16:39:09+08:00 ] ::1 /thinkPhp/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Index
+
+[ 2016-10-04T16:39:35+08:00 ] ::1 /thinkPhp/user/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:User
+

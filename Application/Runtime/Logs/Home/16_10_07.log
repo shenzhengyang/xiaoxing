@@ -1,0 +1,3085 @@
+[ 2016-10-07T09:19:34+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003265s ]
+
+[ 2016-10-07T09:20:21+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2016-10-07T09:27:20+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003534s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003589s ]
+
+[ 2016-10-07T09:39:29+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002751s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2016-10-07T09:41:31+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002557s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002207s ]
+
+[ 2016-10-07T09:41:45+08:00 ] ::1 /thinkPhp/Application/Home/View/Index/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004149s ]
+ERR: 无法加载控制器:Application
+
+[ 2016-10-07T09:41:45+08:00 ] ::1 /thinkPhp/Application/Home/View/Index/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004334s ]
+ERR: 无法加载控制器:Application
+
+[ 2016-10-07T09:42:39+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.021229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.021375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2016-10-07T09:42:39+08:00 ] ::1 /thinkPhp/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-10-07T09:42:39+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:43:03+08:00 ] ::1 /thinkPhp/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-10-07T09:43:22+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:43:53+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003686s ]
+
+[ 2016-10-07T09:43:54+08:00 ] ::1 /thinkPhp/pubic/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+ERR: 无法加载控制器:Pubic
+
+[ 2016-10-07T09:43:54+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000603s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:43:54+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:44:16+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2016-10-07T09:44:17+08:00 ] ::1 /thinkPhp/public/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-07T09:44:17+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:44:17+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:44:46+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-10-07T09:44:46+08:00 ] ::1 /thinkPhp/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-07T09:44:46+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:44:46+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002124s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:45:30+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2016-10-07T09:45:31+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007825s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:45:31+08:00 ] ::1 /thinkPhp/Public/Css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005036s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-07T09:45:31+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:45:44+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001930s ]
+
+[ 2016-10-07T09:45:45+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:45:45+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:46:01+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2016-10-07T09:46:01+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:46:01+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:46:39+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2016-10-07T09:46:39+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004625s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:46:39+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:46:51+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2016-10-07T09:46:51+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:46:51+08:00 ] ::1 /thinkPhp/Public/Css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-07T09:46:52+08:00 ] ::1 /thinkPhp/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-10-07T09:49:20+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-10-07T09:53:27+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002786s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Public/head.html): failed to open stream: No such file or directory G:\amp\xampp\htdocs\thinkPhp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Public/Js.html): failed to open stream: No such file or directory G:\amp\xampp\htdocs\thinkPhp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2016-10-07T09:56:59+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/../Public/head.html): failed to open stream: No such file or directory G:\amp\xampp\htdocs\thinkPhp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Public/Js.html): failed to open stream: No such file or directory G:\amp\xampp\htdocs\thinkPhp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2016-10-07T09:59:29+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Public/Js.html): failed to open stream: No such file or directory G:\amp\xampp\htdocs\thinkPhp\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2016-10-07T10:00:31+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-10-07T10:09:36+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002174s ]
+
+[ 2016-10-07T10:10:21+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2016-10-07T10:11:44+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2016-10-07T10:12:32+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002408s ]
+
+[ 2016-10-07T10:13:20+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002950s ]
+
+[ 2016-10-07T10:14:29+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002753s ]
+
+[ 2016-10-07T10:16:41+08:00 ] ::1 /thinkPhp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007950s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003237s ]
+
+[ 2016-10-07T10:17:26+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002703s ]
+
+[ 2016-10-07T10:18:34+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002290s ]
+
+[ 2016-10-07T10:18:39+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002467s ]
+
+[ 2016-10-07T10:19:23+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+
+[ 2016-10-07T10:20:17+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2016-10-07T10:21:42+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002997s ]
+
+[ 2016-10-07T10:21:54+08:00 ] ::1 /thinkPhp/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T10:23:17+08:00 ] ::1 /thinkPhp/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T10:23:22+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2016-10-07T10:23:23+08:00 ] ::1 /thinkPhp/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T10:38:18+08:00 ] ::1 /thinkPhp/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T10:44:44+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2016-10-07T10:44:47+08:00 ] ::1 /thinkPhp/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T10:45:00+08:00 ] ::1 /thinkPhp/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T10:45:08+08:00 ] ::1 /thinkPhp/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T12:40:18+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002187s ]
+
+[ 2016-10-07T12:41:07+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2016-10-07T12:41:58+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2016-10-07T13:12:03+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002520s ]
+
+[ 2016-10-07T13:15:50+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002837s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002291s ]
+
+[ 2016-10-07T13:17:51+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2016-10-07T13:19:45+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2016-10-07T13:19:50+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-10-07T13:20:14+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003740s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003849s ]
+
+[ 2016-10-07T16:22:17+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2016-10-07T16:51:16+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002420s ]
+
+[ 2016-10-07T16:51:17+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002673s ]
+
+[ 2016-10-07T16:51:19+08:00 ] ::1 /thinkPhp/index.php/Index/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+ERR: 非法操作:User
+
+[ 2016-10-07T16:52:30+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2016-10-07T16:52:32+08:00 ] ::1 /thinkPhp/index.php/Index/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001771s ]
+
+[ 2016-10-07T16:52:32+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T16:52:32+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T16:52:51+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T16:53:45+08:00 ] ::1 /thinkPhp/index.php/Index/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002924s ]
+
+[ 2016-10-07T16:53:45+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T16:53:45+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T16:53:45+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T16:53:49+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T16:58:33+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2016-10-07T16:59:01+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2016-10-07T16:59:02+08:00 ] ::1 /thinkPhp/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T16:59:32+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-10-07T16:59:34+08:00 ] ::1 /thinkPhp/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-10-07T16:59:42+08:00 ] ::1 /thinkPhp/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-10-07T16:59:48+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-10-07T16:59:53+08:00 ] ::1 /thinkPhp/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-10-07T17:00:01+08:00 ] ::1 /thinkPhp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-10-07T17:00:10+08:00 ] ::1 /thinkPhp/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-10-07T17:00:42+08:00 ] ::1 /thinkPhp/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-10-07T17:00:46+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-10-07T17:07:49+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-10-07T17:07:50+08:00 ] ::1 /thinkPhp/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T17:08:19+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-10-07T17:08:21+08:00 ] ::1 /thinkPhp/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+ERR: 无法加载控制器:User
+
+[ 2016-10-07T17:08:37+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2016-10-07T17:09:08+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-10-07T17:09:10+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2016-10-07T17:09:10+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003408s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:09:10+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003647s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:10:08+08:00 ] ::1 /thinkPhp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2016-10-07T17:10:10+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2016-10-07T17:10:10+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:10:10+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:10:52+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2016-10-07T17:10:54+08:00 ] ::1 /thinkPhp/index.php/Index/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+ERR: 非法操作:User
+
+[ 2016-10-07T17:11:56+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+
+[ 2016-10-07T17:11:57+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2016-10-07T17:11:57+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:11:57+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:11:57+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:12:04+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2016-10-07T17:12:07+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-10-07T17:12:07+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:12:07+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:12:29+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2016-10-07T17:12:31+08:00 ] ::1 /thinkPhp/index.php/Index/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+ERR: 非法操作:User
+
+[ 2016-10-07T17:13:25+08:00 ] ::1 /thinkPhp/'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+ERR: 无法加载控制器:'
+
+[ 2016-10-07T17:13:30+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2016-10-07T17:13:33+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2016-10-07T17:13:33+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:33+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:39+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-10-07T17:13:39+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:39+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:40+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002863s ]
+
+[ 2016-10-07T17:13:40+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:40+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:40+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:41+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2016-10-07T17:13:41+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:41+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:41+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:43+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2016-10-07T17:13:43+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:43+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:44+08:00 ] ::1 /thinkPhp/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [2] Division by zero G:\amp\xampp\htdocs\thinkPhp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-10-07T17:13:44+08:00 ] ::1 /thinkPhp/index.php/Index/Public/Css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:44+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:13:47+08:00 ] ::1 /thinkPhp/index.php/Index/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+ERR: 非法操作:Public
+
+[ 2016-10-07T17:17:25+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002394s ]
+
+[ 2016-10-07T17:17:53+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+
+[ 2016-10-07T17:17:54+08:00 ] ::1 /thinkPhp/index.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002278s ]
+
+[ 2016-10-07T17:19:38+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2016-10-07T17:19:39+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002729s ]
+
+[ 2016-10-07T17:19:40+08:00 ] ::1 /thinkPhp/index.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+ERR: 模板不存在:./Application/Home/View/User/index.html
+
+[ 2016-10-07T17:21:07+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-10-07T17:21:09+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-10-07T17:21:10+08:00 ] ::1 /thinkPhp/index.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+ERR: 模板不存在:./Application/Home/View/User/index.html
+
+[ 2016-10-07T17:21:46+08:00 ] ::1 /thinkPhp/index.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+ERR: 模板不存在:./Application/Home/View/User/index.html
+
+[ 2016-10-07T17:21:50+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-10-07T17:21:52+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-10-07T17:21:53+08:00 ] ::1 /thinkPhp/index.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+ERR: 模板不存在:./Application/Home/View/User/index.html
+
+[ 2016-10-07T17:22:23+08:00 ] ::1 /thinkPhp/index.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-10-07T17:22:30+08:00 ] ::1 /thinkPhp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-10-07T17:22:31+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-10-07T17:22:32+08:00 ] ::1 /thinkPhp/index.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-10-07T17:23:34+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-10-07T17:23:36+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-10-07T17:23:36+08:00 ] ::1 /thinkPhp/index.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2016-10-07T17:30:08+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003781s ]
+
+[ 2016-10-07T17:30:10+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+
+[ 2016-10-07T17:30:10+08:00 ] ::1 /thinkPhp/index.php/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+ERR: 非法操作:user
+
+[ 2016-10-07T17:31:05+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2016-10-07T17:31:07+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+
+[ 2016-10-07T17:31:07+08:00 ] ::1 /thinkPhp/index.php/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-10-07T17:32:59+08:00 ] ::1 /thinkPhp/index.php/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+ERR: 模板不存在:./Application/Home/View/User/user.html
+
+[ 2016-10-07T17:33:03+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002056s ]
+
+[ 2016-10-07T17:33:04+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+
+[ 2016-10-07T17:33:04+08:00 ] ::1 /thinkPhp/index.php/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+ERR: 模板不存在:./Application/Home/View/User/user.html
+
+[ 2016-10-07T17:34:02+08:00 ] ::1 /thinkPhp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-10-07T17:34:04+08:00 ] ::1 /thinkPhp/index.php/Index/click.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+
+[ 2016-10-07T17:34:04+08:00 ] ::1 /thinkPhp/index.php/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-10-07T17:35:49+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2016-10-07T17:35:51+08:00 ] ::1 /thinkPhp/index.php/Index/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+ERR: Think\Controller:dispaly方法不存在！
+
+[ 2016-10-07T17:36:12+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-10-07T17:36:14+08:00 ] ::1 /thinkPhp/index.php/Index/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2016-10-07T17:37:17+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002216s ]
+
+[ 2016-10-07T17:37:18+08:00 ] ::1 /thinkPhp/index.php/Index/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-07T17:37:18+08:00 ] ::1 /thinkPhp/index.php/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+
+[ 2016-10-07T18:10:30+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002205s ]
+
+[ 2016-10-07T18:11:36+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-10-07T18:11:52+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004341s ]
+
+[ 2016-10-07T18:13:16+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2016-10-07T18:13:40+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003415s ]
+
+[ 2016-10-07T18:22:13+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003421s ]
+
+[ 2016-10-07T18:23:58+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004383s ]
+
+[ 2016-10-07T18:25:32+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2016-10-07T18:26:25+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-10-07T18:27:32+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2016-10-07T18:28:14+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003142s ]
+
+[ 2016-10-07T18:33:57+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002394s ]
+
+[ 2016-10-07T18:34:25+08:00 ] ::1 /thinkPhp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+

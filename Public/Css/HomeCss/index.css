@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    padding-top:50px;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei";
+}
+.nav_li{
+    height:100%;
+}
+#dropdownMenu1{
+    margin:auto 0px;
+    background: #222;
+    border-color: #222;
+}
+#login_bt:hover{
+	background-color:#eee;
+	font-size:16px;
+	color:#101010; !important;
+}
+.block{
+    width: auto;
+    height:500px;
+}
+.jumbotron{
+    margin-bottom: 0px;
+    height:100%;
+    padding: 0px auto;
+}
+.jumbotron img{
+    height: 400px;
+}
+.copyright{
+    text-align: center;
+    height:60px;
+    pading:auto auto;
+    background-color: #101010;
+    padding: 20px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.copyright a{
+    text-decoration:none;
+}

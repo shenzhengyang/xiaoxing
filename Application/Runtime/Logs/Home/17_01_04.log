@@ -1,0 +1,515 @@
+[ 2017-01-04T12:40:14+08:00 ] 23.247.8.122 /xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:57:08+08:00 ] 117.10.139.205 /xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:57:51+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:57:51+08:00 ] 117.10.139.205 /xiaoxing/Public/Js/HomeJs/about.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T12:57:52+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/Public/Image/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:58:19+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/position.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:58:24+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/Public/Image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:59:36+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/equipment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `equipment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `equipment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:59:37+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/Public/Image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:59:43+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/equipment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `equipment` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `equipment`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:59:43+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/Public/Image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:59:46+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/equip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `equip` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `equip`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_DATA C:\xampp\htdocs\xiaoxing\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T12:59:47+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/Public/Image/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T13:00:03+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/rail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rail` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rail`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T13:00:03+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:echarts.js
+
+[ 2017-01-04T13:00:05+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/Public/Image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T13:00:40+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/position.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T13:00:41+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/Public/Image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T13:01:35+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/position.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+NOTIC: [8] Undefined index: bettery C:\xampp\htdocs\xiaoxing\Application\Runtime\Cache\Home\f01bf442bdedeff04ffee32ca80d7042.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T13:01:36+08:00 ] 117.10.139.205 /xiaoxing/index.php/Index/Public/Image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T13:01:39+08:00 ] 117.10.139.205 /xiaoxing/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T13:02:22+08:00 ] 117.10.139.205 /xiaoxing/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T14:44:36+08:00 ] 23.247.88.58 /xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T15:27:00+08:00 ] 115.221.13.211 http://ent.qq.com/xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T15:27:01+08:00 ] 115.221.14.116 http://www.cmbchina.com/xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T15:27:02+08:00 ] 115.221.10.158 http://lifenote.baidu.com/xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T17:35:44+08:00 ] 115.221.10.14 http://www.taihainet.com/xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T22:38:40+08:00 ] 115.221.10.158 http://www.ku6.com/xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T22:38:41+08:00 ] 115.221.13.17 http://www.lashou.com/xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-04T22:38:43+08:00 ] 115.221.12.133 http://www.scol.com.cn/xiaoxing/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

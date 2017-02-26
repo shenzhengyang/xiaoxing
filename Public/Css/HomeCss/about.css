@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    padding-top:50px;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei";
+}
+.nav_li{
+    height:100%;
+}
+#dropdownMenu1{
+    margin:auto 0px;
+    background: #222;
+    border-color: #222;
+}
+.copyright{
+    text-align: center;
+    height:60px;
+    pading:auto auto;
+    background-color: #101010;
+    padding: 20px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.copyright a{
+    text-decoration:none;
+}
+.jumbotron{
+    background-color: #101010;
+    color: #FFFFFF;
+}
+.jumbotron h1{
+    color: #428bca;
+}
+.context{
+    padding-bottom: 60px;
+}
+#toc0{
+    margin-top: 40px;
+    border-left: 10px solid #428bca;
+}
+#toc1{
+    margin-top: 100px;
+    border-left: 10px solid #428bca;
+}
+#toc2{
+    margin-top: 100px;
+    border-left: 10px solid #428bca;
+}
