@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+
+    <table class="table table-hover">
+        <tbody>
+        <tr>
+            <td>id</td>
+            <td>username</td>
+            <td>password</td>
+        </tr>
+        <!-- Volist循环嵌套输出tags标签 -->
+        <volist name="user" id="user">
+            <tr>
+                <td>{$user['id']}</td>
+                <td>{$user['username']}</td>
+                <td>{$user['password']}</td>
+            </tr>
+        </volist>
+
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>
