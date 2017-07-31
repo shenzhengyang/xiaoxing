@@ -47,11 +47,11 @@
                 $("#loginIn").slideToggle("slow");
             });
             $(".regist a").click(function(){
-                location="index.php/Index/regist.html"
+                location="regist.html"
             });
             //验证登录
             $("#login").click(function(){
-                $.post("index.php/Index/login",$(".form-signin").serialize(),function(data,status){
+                $.post("loginCheck",$(".form-signin").serialize(),function(data,status){
                     console.log(data);
                     var json_data=JSON.parse(data);
                     if(json_data[0].username!=null){
@@ -68,7 +68,7 @@
                 });
             });
             $("#forgotpass").click(function(){
-                location="{:U('Index/changepass')}";
+                location="{:U('changepass')}";
             });
         });
 

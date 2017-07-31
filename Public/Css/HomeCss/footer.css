@@ -1,0 +1,12 @@
+.copyright{
+    text-align: center;
+    height:60px;
+    padding:auto auto;
+    background-color: #101010;
+    padding: 20px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.copyright a{
+    text-decoration:none;
+}

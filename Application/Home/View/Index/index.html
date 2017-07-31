@@ -29,7 +29,7 @@
     <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 	jQuery(function(){
 	    if("{$username}"!=""){
             $("#loginIn").hide();
@@ -74,7 +74,8 @@
         });
     });
 
-	</script>
+	</script>-->
+    <script src="Public/Js/HomeJs/index.js"></script>
 </head>
 
 <body>
@@ -93,28 +94,17 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="{:U('../index')}">主页</a></li>
-                <li><a href="{:U('Analysis/analysis')}">数据分析架子</a></li>
-                <!--<li class="dropdown">
-                    <a href="{:U('index')}" class="dropdown-toggle" data-toggle="dropdown">数据分析 <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="{:U('Index/position')}">Position</a></li>
-                        <li><a href="{:U('Index/equip')}">Equip</a></li>
-                        <li><a href="{:U('Index/equipment')}">Equipment</a></li>
-                        <li><a href="{:U('Index/rail')}">Rail</a></li>
-                        <li><a href="{:U('Analysis/analysis')}">数据分析架子</a></li>
-                    </ul>
-                </li>-->
-                <!--<li><a href="#about">数据分析</a></li>-->
+                <li><a href="{:U('Analysis/dataAnalysis')}">数据分析架子</a></li>
                 <li><a href="{:U('About/about')}">关于我们</a></li>
             </ul>
 			<ul class="nav navbar-nav" style="margin-left:60%;">
-                <li id="username"><a id="login_bt" href="#" style="border:1px solid #ffffff;" >登录</a></li>
+                <li id="username"><a id="login_bt" href="{:U('User/login')}">登录</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
 
-<div class="container" style="display: none;" id="loginIn">
+<!--<div class="container" style="display: none;" id="loginIn">
 
     <form class="form-signin" action="http://localhost:8080/testWeb/LoginIn">
         <h2 class="form-signin-heading" style="text-align:center;">登录</h2>
@@ -138,7 +128,7 @@
         </div>
     </form>
 
-</div> <!-- /container -->
+</div> --><!-- /container -->
 
 <!--滚动屏-->
 <div class="spin" >
