@@ -92,9 +92,10 @@ class AnalysisController extends Controller
         $this->display();
     }
     public function user(){
-        $UserModel=D('user');
-        $user=$UserModel->get_User();
-        $this->assign('user',$user);
-        $this->display();
+        $UserModel=D('User');
+        $user=$UserModel->getAllUser();
+        dump($user);
+        /*$this->assign('user',$user);
+        $this->display();*/
     }
 }

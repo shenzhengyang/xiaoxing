@@ -18,6 +18,7 @@
     <!-- Custom javascript for this template -->
     <script src="../../Public/Js/jquery.js"></script>
     <script src="../../Public/Js/bootstrap.js"></script>
+    <script src="../../Public/Js/HomeJs/login.js"></script>
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../Public/Js/HomeJs/ie-emulation-modes-warning.js"></script>
@@ -27,52 +28,6 @@
     <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-        jQuery(function(){
-            if("{$username}"!=""){
-                //$("#loginIn").hide();
-                $("#login_bt").unbind();
-                $("#login_bt").text("欢迎!"+"{$username}");
-            }
-            var win=$(window);
-            //$("#loginIn").hide()
-            $("#loginIn").css({
-                height:win.height()
-            });
-            $("#login_bt").bind("click",function(){
-                $("#login_bt").css({
-                    backgroundColor:"#eee",
-                    border:"1px solide #eee"
-                });
-                $("#loginIn").slideToggle("slow");
-            });
-            $(".regist a").click(function(){
-                location="regist.html"
-            });
-            //验证登录
-            $("#login").click(function(){
-                $.post("loginCheck",$(".form-signin").serialize(),function(data,status){
-                    console.log(data);
-                    var json_data=JSON.parse(data);
-                    if(json_data[0].username!=null){
-                        //$("#login_bt").text("欢迎 "+json_data[0].username+"!");
-                        $("#login_bt").css({
-                            color:"#428bca",
-                            backgroundColor:"#333"
-                        });
-                        $("#loginIn").slideToggle("slow");
-                        $("#loginIn").hide();
-                        $("#login_bt").unbind();
-                        location="{:U('../index')}";
-                    }
-                });
-            });
-            $("#forgotpass").click(function(){
-                location="{:U('changepass')}";
-            });
-        });
-
-    </script>
 </head>
 
 <body>
@@ -82,12 +37,12 @@
         <form class="form-signin" action="http://localhost:8080/testWeb/LoginIn">
             <h2 class="form-signin-heading" style="text-align:center;">登录</h2>
             <label for="inputUser" class="sr-only">用户名</label>
-            <input id="inputUser" class="form-control" name="username" placeholder="用户名" required autofocus>
+            <input id="inputUser" class="form-control" name="username" placeholder="用户名" data-toggle="popover" data-trigger="focus" data-content="用户名错误" required autofocus>
             <label for="inputPassword" class="sr-only">密码</label>
             <input type="password" id="inputPassword" class="form-control" name="password"placeholder="密码" required>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" value="remember-me" name="rememberme"> 记住密码
+                    <input type="checkbox"  name="rememberme" id="rememberPass"> 记住密码
                 </label>
                 <label id="forgotpass">
                     忘记密码?

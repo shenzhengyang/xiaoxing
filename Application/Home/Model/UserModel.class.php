@@ -10,25 +10,8 @@ namespace Home\Model;
 use Think\Model;
 class UserModel extends Model
 {
-    public function get_equip(){
-        $result=$this->select();
-        return $result;
-    }
-    public function get_equipment(){
-        $result=$this->select();
-        return $result;
-    }
-    public function get_feedback(){
-        $result=$this->select();
-        return $result;
-    }
-    public function get_position(){
-        $result=$this->select();
-        return $result;
-    }
-    public function get_rail(){
-        $result=$this->select();
-        return $result;
+    public function getAllUser(){
+        return $this->select();
     }
     public function get_User($username,$password){
 

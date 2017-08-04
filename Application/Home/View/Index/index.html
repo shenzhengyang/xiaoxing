@@ -18,8 +18,8 @@
 	<link href="Public/Css/HomeCss/loginin.css" rel="stylesheet">
     <!-- Custom javascript for this template -->
 	<script src="Public/Js/jquery.js"></script>
-    <script src="Public/Js/HomeJs/index.js"></script>
     <script src="Public/Js/bootstrap.js"></script>
+    <script src="Public/Js/HomeJs/index.js"></script>
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="Public/Js/HomeJs/ie-emulation-modes-warning.js"></script>
@@ -75,7 +75,6 @@
     });
 
 	</script>-->
-    <script src="Public/Js/HomeJs/index.js"></script>
 </head>
 
 <body>
@@ -98,37 +97,17 @@
                 <li><a href="{:U('About/about')}">关于我们</a></li>
             </ul>
 			<ul class="nav navbar-nav" style="margin-left:60%;">
-                <li id="username"><a id="login_bt" href="{:U('User/login')}">登录</a></li>
+                <li id="username" class="dropdown">
+                    <a id="login_bt" href="{:U('User/login')}" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{$user}</a>
+                    <ul class="dropdown-menu" aria-labelledby="login_bt">
+                        <li><a href="#" id="chagePass">修改密码</a></li>
+                        <li><a href="#" id="loginOut">退出</a></li>
+                    </ul>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-
-<!--<div class="container" style="display: none;" id="loginIn">
-
-    <form class="form-signin" action="http://localhost:8080/testWeb/LoginIn">
-        <h2 class="form-signin-heading" style="text-align:center;">登录</h2>
-        <label for="inputUser" class="sr-only">用户名</label>
-        <input id="inputUser" class="form-control" name="username" placeholder="用户名" required autofocus>
-        <label for="inputPassword" class="sr-only">密码</label>
-        <input type="password" id="inputPassword" class="form-control" name="password"placeholder="密码" required>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="remember-me" name="rememberme"> 记住密码
-            </label>
-            <label id="forgotpass">
-                忘记密码?
-            </label>
-        </div>
-        <button id="login" type="button" class="btn btn-lg btn-primary btn-block">登录</button>
-        <div class="regist">
-            <label style="width:100%;">
-                还没有账号?<a herf="#" style="color:#428bca;">马上注册</a>
-            </label>
-        </div>
-    </form>
-
-</div> --><!-- /container -->
 
 <!--滚动屏-->
 <div class="spin" >
@@ -342,7 +321,6 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="Public/Js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="Public/Js/HomeJs/ie10-viewport-bug-workaround.js"></script>
 </body>

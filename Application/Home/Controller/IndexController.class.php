@@ -2,21 +2,38 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
+    /**
+     * 主界面
+     */
     public function index()
     {
+        $this->user="登录";
         if(session('?username')){
-            $this->assign('username',session('username'));
+            $session='欢迎，'.session('username').'!';
+            $this->user=$session;
         }else if(cookie('xiaoxing_user')!=null){
-            $username=cookie('xiaoxing_user')[0];
-            $password=cookie('xiaoxing_user')[1];
-            $result=$this->checkLong($username,$password);
-            if($result!=null){
-                session('username',$username);
-                $this->assign('username',session('username'));
+            $cookie = cookie('xiaoxing_user');
+            $UserController=A('User');
+            if($UserController->checkLogin($cookie[0],$cookie[1])){
+                $this->display();
             }
         }
         $this->display();
     }
+    /**
+     *退出登录
+     */
+    public function loginOut(){
+        if(session('?username')){
+            session('username',null);
+        }else if(cookie('xiaoxing_user')!=null){
+            cookie('xiaoxing_user',null);
+        }
+        $this->redirect('../index');
+    }
+
+
+
     /*
      * 生成验证码函数
      */
