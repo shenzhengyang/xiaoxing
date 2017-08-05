@@ -10,12 +10,6 @@ jQuery(function() {
         height: win.height()
     });
     /**
-     * 点击注册按钮
-     */
-    $(".regist a").click(function () {
-        location = "regist.html"
-    });
-    /**
      * 点击忘记密码
      */
     $("#forgotpass").click(function () {
