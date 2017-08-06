@@ -22,6 +22,16 @@ jQuery(function(){
     $("#loginOut").bind('click',function(){
         loginOut();
     });
+    //跳转数据分析架子
+    $("#dataAnalysis").click(function(){
+        $.post('index.php/Index/checkSession',null,function(data,status){
+            if(data){
+                location='index.php/Analysis/dataAnalysis';
+            }else{
+                alert("您还未登录！")
+            }
+        });
+    });
 });
 /**
  * 跳转到登录界面

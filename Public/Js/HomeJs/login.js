@@ -15,6 +15,7 @@ jQuery(function() {
     $("#forgotpass").click(function () {
         location = "changepass";
     });
+
     /**
      * 弹出提示
      * @param id 弹出提示的元素的id

@@ -32,6 +32,16 @@ class IndexController extends Controller {
         $this->redirect('../index');
     }
 
+    /**
+     *检查是否已登录
+     */
+    function checkSession(){
+        $this->ajaxReturn(session('?username'));
+    }
+
+
+
+
 
 
     /*

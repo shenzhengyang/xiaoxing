@@ -5,15 +5,119 @@
  * Date: 2016/10/22
  * Time: 13:40
  */
-
 namespace Home\Controller;
 use Think\Controller;
+use Think\Exception;
 
 class AnalysisController extends Controller
 {
-    public function analysis(){
-        $this->display();
+    /**
+     * 根据用户名查询用户id
+     * @return int|mixed
+     */
+    function QueryUserId(){
+        $USERNOLOGIN=0;
+        $QUERYUSEREXCEPTION=-1;
+        try {
+            $UserModel = M('User');
+            if (session('?username')) {
+                $username = session('username');
+                $id=$UserModel->where("username='%s'", $username)->getField('id');
+                return $id;
+            }
+            return $USERNOLOGIN;
+        }catch (Exception $exception){
+            return $QUERYUSEREXCEPTION;
+        }
+        return  0;
     }
+
+    /**
+     * 根据uid查询eid
+     * @param $uid 用户id
+     * @return eid 设备id
+     */
+    function Query_eid_By_uid($uid){
+        try{
+            $EquipmentModel=M('Equipment');
+            $data=$EquipmentModel->where("uid='%s'",$uid)->getField('eid');
+            return $data;
+        }catch(Exception $exception){
+            echo $exception->getMessage();
+            return '0000';
+        }
+        return '0000';
+    }
+
+    /**
+     * 根据uid查询equipment
+     * @param $uid 用户id
+     * @return string
+     */
+    function Query_equipment_By_uid($uid){
+        try{
+            $EquipmentModel=M('Equipment');
+            $data=$EquipmentModel->where("uid='%s'",$uid)->select();
+            $this->ajaxReturn($data);
+        }catch(Exception $exception){
+            echo $exception->getMessage();
+            return '0000';
+        }
+        return '0000';
+    }
+
+    /**
+     * 根据eid查询最近的定位位置position
+     * @param $eid
+     */
+    function Query_position_By_eid($eid="867967020135929"){
+        try{
+            $PositionModel=M('Position');
+            $data=$PositionModel->where("eid='%s'",$eid)->select();
+            $this->ajaxReturn($data);
+        }catch(Exception $exception){
+            $this->ajaxReturn(false);
+        }
+        $this->ajaxReturn(false);
+    }
+
+    /**
+     * 根据eid查询最近的定位位置position
+     * @param $eid
+     */
+    function Query_position_By_eid2(){
+        try{
+            $eid=$this->Query_eid_By_uid($this->QueryUserId());
+            $PositionModel=M('Position');
+            $data=$PositionModel->where("eid='%s'",$eid)->select();
+            $this->ajaxReturn($data);
+        }catch(Exception $exception){
+            $this->ajaxReturn(false);
+        }
+        $this->ajaxReturn(false);
+    }
+
+    /**
+     * 根据eid查询设备的位置和半径rail
+     * @param $eid
+     */
+    function Query_rail_By_eid($eid){
+        try{
+            $RailModel=M('rail');
+            $data=$RailModel->where("eid='%s'",$eid)->order('id desc')->limit(1)->select();
+            $this->ajaxReturn($data);
+        }catch(Exception $exception){
+            $this->ajaxReturn(false);
+        }
+        $this->ajaxReturn(false);
+    }
+
+
+
+
+
+
+
     public function versioninfo(){
         $VersioninfoModel=D('Versioninfo');
         $versioninfo=$VersioninfoModel->get_versioninfo();
