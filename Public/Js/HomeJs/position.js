@@ -145,7 +145,7 @@ jQuery(function() {
                 map_init(r.point.lng,r.point.lat);
                 var mk = new BMap.Marker(r.point);
                 map.addOverlay(mk);
-
+                
             }
             else {
                 alert('定位失败！'+this.getStatus());
@@ -162,5 +162,105 @@ jQuery(function() {
         //BMAP_STATUS_SERVICE_UNAVAILABLE	服务不可用。对应数值“7”。(自 1.1 新增)
         //BMAP_STATUS_TIMEOUT	超时。对应数值“8”。(自 1.1 新增)
     }
+    function GSP2BdL(PointArray,type){
+        var PointArrays=new Array();
+        var n;
+        if(PointArray.length<=100){
+
+        }else{
+            n=PointArray.length%100==0?PointArray.length/100:PointArray.length/100+1;
+            for(var i=0;i<n;i++){
+                PointArrays=PointArray
+            }
+        }
+    }
+    /**
+     * 电子围栏脚本
+     */
+    //滑块隐藏
+    rail_huakuai_hide();
+    //控制滑块滑动
+    $( "#draggable" ).draggable({ axis: "x",containment: "parent" });
+    $("#positionBt").bind('click',function(){
+        rail_huakuai_hide();
+        if($("#positionBt").text()!=$("#BtList").text()){
+            $("#BtList").text($("#positionBt").text());
+        }
+    });
+    var drag_width;
+    var pro_width;
+    var drag_left;
+    var rail_lng;
+    var rail_lat;
+    var rail_radius;
+    var rail_eid;
+    /**
+     * rail 初始化
+     */
+    $("#railBt").bind('click',function(){
+        rail_huakuai_show();
+        if($("#railBt").text()!=$("#BtList").text()){
+            $("#BtList").text($("#railBt").text());
+            //加载电子围栏
+            $.post("Query_rail_By_eid",null,function(data,status){
+                if(data==false){
+                    alert("数据加载失败！");
+                }else{
+                    $.each(data,function(i,item){
+                        rail_lng=item.lng;
+                        rail_lat=item.lat;
+                        rail_lat=-rail_lat;
+                        rail_radius=item.radius*10000;
+                        rail_eid=item.eid;
+                        alert(rail_eid+rail_lat+rail_lng);
+                        var point = new BMap.Point(rail_lng, rail_lat);
+                        map.centerAndZoom(point, 15);
+                        var marker = new BMap.Marker(point);
+                        map.addOverlay(marker);
+                        //addCircle(point,rail_radius);
+                        var circle = new BMap.Circle(point,rail_radius,{strokeColor:"blue", strokeWeight:0.5, strokeOpacity:0.5});
+                        map.addOverlay(circle);
+                    });
+                }
+            });
+
+            /*drag_width=$("#draggable").width()+30;//padding值30
+            pro_width=$("#progress").width();
+            drag_left=$("#draggable").css('left');*/
+
+        }
+    });
+    /**
+     * 暂时选用mousseup
+     */
+    $("#draggable").mouseout(function(){
+
+    });
+    /**
+     * 滑块滑动响应函数
+     */
+    $("#draggable").mouseup(function(){
+        drag_width=$("#draggable").width()+30;//padding值30
+        pro_width=$("#progress").width()-60;
+        drag_left=$("#draggable").css('left');
+        drag_left=Number(drag_left.substr(0,drag_left.length-2));
+        $("#progress_blue").width(drag_left);
+        var ww=(drag_left-15)/pro_width;
+    });
+    /**
+     * 滑块消失
+     */
+    function rail_huakuai_hide(){
+        $("#progress").hide();
+        $("#draggable").hide();
+    }
+    /**
+     * 滑块展示
+     */
+    function rail_huakuai_show(){
+        $("#progress").show();
+        $("#draggable").show();
+    }
 });
+
 

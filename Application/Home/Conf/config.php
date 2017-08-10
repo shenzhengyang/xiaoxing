@@ -1,6 +1,8 @@
 <?php
 return array(
 	//'配置项'=>'配置值'
+    'LOG_RECORD' => true, // 开启日志记录
+    'LOG_LEVEL'  =>'EMERG,ALERT,CRIT,ERR,INFO', // 只记录EMERG ALERT CRIT ERR 错误
     //链接数据库的配置文件
     'DB_TYPE'               =>  'mysql',     // 数据库类型
     'DB_HOST'               =>  'localhost', // 服务器地址
