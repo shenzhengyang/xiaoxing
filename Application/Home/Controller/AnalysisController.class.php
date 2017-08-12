@@ -103,7 +103,7 @@ class AnalysisController extends Controller
      */
     function Query_rail_By_eid($eid="867967020135929"){
         try{
-            $RailModel=M('rail');
+            $RailModel=M('Rail');
             $data=$RailModel->where("eid='%s'",$eid)->order('id desc')->limit(1)->select();
             $this->ajaxReturn($data);
         }catch(Exception $exception){
@@ -112,6 +112,28 @@ class AnalysisController extends Controller
         $this->ajaxReturn(false);
     }
 
+    /**
+     * 更新电子围栏数据
+     * @param $eid 设备的id
+     * @param $lat 电子围栏的圆点纬度
+     * @param $lng 电子围栏的圆点经度
+     * @param $radius 电子围栏的半径
+     */
+    function Add_rail($eid,$lat,$lng,$radius){
+        try{
+            $RailModel = M("Rail"); // 实例化User对象
+            $data['eId'] = $eid;
+            $data['lat'] = $lat;
+            $data['lng'] = $lng;
+            $data['radius'] = $radius;
+            $result=$RailModel->add($data);
+            if($result) return $this->ajaxReturn(true);
+        }catch(Exception $exception){
+            dump($exception->getMessage());
+            $this->ajaxReturn(false);
+        }
+        $this->ajaxReturn(false);
+    }
 
 
 
