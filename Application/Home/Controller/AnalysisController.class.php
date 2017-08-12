@@ -101,8 +101,9 @@ class AnalysisController extends Controller
      * 根据eid查询设备的位置和半径rail
      * @param $eid
      */
-    function Query_rail_By_eid($eid="867967020135929"){
+    function Query_rail_By_eid(){
         try{
+            $eid=$this->Query_eid_By_uid($this->QueryUserId());
             $RailModel=M('Rail');
             $data=$RailModel->where("eid='%s'",$eid)->order('id desc')->limit(1)->select();
             $this->ajaxReturn($data);
